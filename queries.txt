@@ -1,0 +1,20 @@
+expand(['kendrick lamar', 'taylor swift', 'the weeknd'], Artist).
+		Who collaberated with kendrick lamar, taylor swift, and the weeknd?
+expand(['future'), Artist).
+		Who all sang with future?
+expand(['kendrick lamar'], 'taylor swift',).
+		Has taylor swift ever collaberated with kendrick lamar?
+release('imaginary', Year).
+		When was imaginary released?
+release(Song, 2018);
+		What songs were released in 2018?
+solo('imran khan', 2009).
+		Did Imran Khan release a solo album in 2009?
+solo('imran khan', 2008).
+		Did Imran Khan release a solo album in 2008?
+solo(Artist, 2018).
+		Did any artist go solo in 2018?
+solo(Artist, 2015).
+		Did any artist go solo in 2018?
+song(X,_,X).
+		What song has the same name as the album?
